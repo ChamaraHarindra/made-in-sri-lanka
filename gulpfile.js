@@ -149,4 +149,4 @@ gulp.task('default', ['clean', 'images', 'styles', 'scripts', 'template', 'watch
 
 gulp.task('build', ['default']);
 
-gulp.task('production', ['set-prod', 'clean', 'images', 'styles', 'scripts', 'template']);
+gulp.task('production', ['set-prod', 'clean', 'images', 'copy', 'styles', 'scripts', 'template']);

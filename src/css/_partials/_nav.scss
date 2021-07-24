@@ -34,6 +34,12 @@
 	list-style-type: none;
 	padding: 0;
 	margin: 0;
+
+	.btn-link {
+		&:hover {
+			color: $whiteColor;
+		}
+	}
 	li {
 		padding: 0;
 	}
