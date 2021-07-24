@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="description" content="{{ page_description }}">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    {{ '<link href="https://unpkg.com/@glidejs/glide@3.4.1/dist/css/glide.core.min.css" rel="stylesheet">'  | safe if homePage }}
+    {{ '<link href="https://unpkg.com/@glidejs/glide@3.4.1/dist/css/glide.theme.min.css" rel="stylesheet">'  | safe if homePage }}
+    <link rel="stylesheet" href="{{ paths.styles }}/main.css">
+    <title>{{ page_title }} | Made in Sri Lanka</title>
+  </head>
+  <body>
+
+    <header>
+      {% include "partials/header.njk" %}
+    </header>
+
+    <nav>
+      {% include "partials/nav.njk" %}
+    </nav>
+
+    <main>
+      {% block main %}{% endblock %}
+    </main>
+
+    <footer>
+      {% include "partials/footer.njk" %}
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+    {{ '<script src="https://unpkg.com/@glidejs/glide@3.4.1/dist/glide.min.js"></script>'  | safe if homePage }}
+    <script type="text/javascript" src="js/main.js"></script>
+    {% if homePage %}
+      <script>
+        new Glide('.glide').mount()
+      </script>
+    {% endif %}
+  </body>
+</html>

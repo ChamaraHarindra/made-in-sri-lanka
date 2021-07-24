@@ -1,0 +1,8 @@
+{% for cat in categories %}
+    <li>
+        <a class="dropdown-item" href="#">
+            <img src="{{paths.images}}/icons/{{cat.cat_icon}}.svg" alt="">
+            <span>{{cat.cat_label}}</span>
+        </a>
+    </li>
+{% endfor %}

@@ -1,0 +1,193 @@
+{
+  "categories": [
+    {
+      "cat_id": 1,
+      "cat_icon": "smartphone",
+      "cat_label": "Phones & Accessories"
+    },
+    {
+      "cat_id": 2,
+      "cat_icon": "computer",
+      "cat_label": "Computers & Office"
+    },
+    {
+      "cat_id": 3,
+      "cat_icon": "tv",
+      "cat_label": "TV & Home Appliances"
+    },
+    {
+      "cat_id": 4,
+      "cat_icon": "sports",
+      "cat_label": "Sports & Outdoor Activities"
+    },
+    {
+      "cat_id": 5,
+      "cat_icon": "shirt",
+      "cat_label": "Men's Fashion"
+    },
+    {
+      "cat_id": 6,
+      "cat_icon": "hand-bag",
+      "cat_label": "Women’s Fashion"
+    },
+    {
+      "cat_id": 7,
+      "cat_icon": "baby",
+      "cat_label": "Babies and Toys"
+    },
+    {
+      "cat_id": 8,
+      "cat_icon": "shopping-bag",
+      "cat_label": "Groceries and Essentials"
+    },
+    {
+      "cat_id": 9,
+      "cat_icon": "car",
+      "cat_label": "Automotive & Motorbikes"
+    }
+  ],
+  "products": [
+    {
+      "product_repeat": 5,
+      "product_img": 1,
+      "product_name": "Kids plate made from Mahogani",
+      "product_price": "1,500.00",
+      "product_old_price": "1,550.00"
+    },
+    {
+      "product_repeat": 5,
+      "product_img": 1,
+      "product_name": "Kids plate made from Mahogani",
+      "product_price": "1,500.00",
+      "product_old_price": "1,550.00"
+    },
+    {
+      "product_repeat": 5,
+      "product_img": 1,
+      "product_name": "Kids plate made from Mahogani",
+      "product_price": "1,500.00",
+      "product_old_price": "1,550.00"
+    },
+    {
+      "product_repeat": 5,
+      "product_img": 1,
+      "product_name": "Kids plate made from Mahogani",
+      "product_price": "1,500.00",
+      "product_old_price": "1,550.00"
+    },
+    {
+      "product_repeat": 5,
+      "product_img": 1,
+      "product_name": "Kids plate made from Mahogani",
+      "product_price": "1,500.00",
+      "product_old_price": "1,550.00"
+    },
+    {
+      "product_repeat": 5,
+      "product_img": 1,
+      "product_name": "Kids plate made from Mahogani",
+      "product_price": "1,500.00",
+      "product_old_price": "1,550.00"
+    },
+    {
+      "product_repeat": 5,
+      "product_img": 1,
+      "product_name": "Kids plate made from Mahogani",
+      "product_price": "1,500.00",
+      "product_old_price": "1,550.00"
+    },
+    {
+      "product_repeat": 5,
+      "product_img": 1,
+      "product_name": "Kids plate made from Mahogani",
+      "product_price": "1,500.00",
+      "product_old_price": "1,550.00"
+    },
+    {
+      "product_repeat": 5,
+      "product_img": 1,
+      "product_name": "Kids plate made from Mahogani",
+      "product_price": "1,500.00",
+      "product_old_price": "1,550.00"
+    },
+    {
+      "product_repeat": 5,
+      "product_img": 1,
+      "product_name": "Kids plate made from Mahogani",
+      "product_price": "1,500.00",
+      "product_old_price": "1,550.00"
+    },
+    {
+      "product_repeat": 5,
+      "product_img": 1,
+      "product_name": "Kids plate made from Mahogani",
+      "product_price": "1,500.00",
+      "product_old_price": "1,550.00"
+    },
+    {
+      "product_repeat": 5,
+      "product_img": 1,
+      "product_name": "Kids plate made from Mahogani",
+      "product_price": "1,500.00",
+      "product_old_price": "1,550.00"
+    },
+    {
+      "product_repeat": 5,
+      "product_img": 1,
+      "product_name": "Kids plate made from Mahogani",
+      "product_price": "1,500.00",
+      "product_old_price": "1,550.00"
+    },
+    {
+      "product_repeat": 5,
+      "product_img": 1,
+      "product_name": "Kids plate made from Mahogani",
+      "product_price": "1,500.00",
+      "product_old_price": "1,550.00"
+    },
+    {
+      "product_repeat": 5,
+      "product_img": 1,
+      "product_name": "Kids plate made from Mahogani",
+      "product_price": "1,500.00",
+      "product_old_price": "1,550.00"
+    },
+    {
+      "product_repeat": 5,
+      "product_img": 1,
+      "product_name": "Kids plate made from Mahogani",
+      "product_price": "1,500.00",
+      "product_old_price": "1,550.00"
+    }
+  ],
+  "stores": [
+    {
+      "name": "DSI Footware",
+      "cover": 1,
+      "logo": 1,
+      "motto": "No 01 footware in Sri Lanka",
+      "followers": 1239
+    },
+    {
+      "name": "Fashion bug",
+      "cover": 2,
+      "logo": 2,
+      "motto": "Changing Lifestyles",
+      "followers": 321
+    },
+    {
+      "name": "Galleria",
+      "cover": 3,
+      "logo": 3,
+      "motto": "Your mini department store",
+      "followers": 213
+    },
+    {
+      "name": "Elephant House",
+      "cover": 4,
+      "logo": 4,
+      "motto": "Bringing the flavor to you",
+      "followers": 321
+    }
+  ]
+}

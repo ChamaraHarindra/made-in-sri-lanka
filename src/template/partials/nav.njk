@@ -1,0 +1,31 @@
+<div class="navigation">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <nav>
+          <ul class="nav-ul">
+            <li>
+              <div class="dropdown cat-drop">
+                <button class="btn btn-link dropdown-toggle {{'open' if homePage}}" type="button" id="dropdownCat" data-bs-toggle="dropdown" aria-expanded="false">
+                  <i class="ri-menu-line me-2"></i> Shop by Category 
+                </button>
+                <ul class="dropdown-menu {{'show' if homePage}}" aria-labelledby="dropdownCat">
+                  {% include "./main-nav-links.njk" %}
+                </ul>
+              </div>
+            </li>
+            <li>
+              <a href="#" class="main-links">Flash Deals</a>
+            </li>
+            <li>
+              <a href="#"  class="main-links">New Arrivals</a>
+            </li>
+            <li>
+              <a href="#" class="main-links">Top Sellers</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </div>
+</div>
