@@ -1,7 +1,26 @@
 footer {
 	background: $whiteColor;
-	padding: 30px 0;
 	margin-top: 50px;
+}
+
+.footer-top {
+	padding: 30px 0;
+}
+
+.footer-bottom {
+	background: $darkGrayColor;
+	padding: 16px 0;
+
+	.copyrights {
+		color: $whiteColor;
+		text-align: center;
+		margin-bottom: 0;
+
+		a {
+			color: $primaryColor;
+			font-weight: bold;
+		}
+	}
 }
 
 h2 {
